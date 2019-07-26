@@ -1,0 +1,203 @@
+/****FIRST SECTION CONTENT*****/
+.backing_image_one{background:url("landing_back.jpg") no-repeat center;
+    height:900px;
+    background-attachment:fixed;
+    overflow-x:none; overflow-y:none; 
+    background-size:cover;
+    width:100%; }
+
+
+/****NAV MENU*****/
+  .navbar{
+    padding-top:15px; color: white; 
+    background-color:rgba(0, 102, 102, 0.6); height:100px; 
+    position:fixed; width:100%; z-index:100;}
+    
+  .navbar_alt{padding-top:25px; color: white; background-color:rgb(0, 102, 102); 
+    height:100px; position:fixed; width:100%; z-index:100;}
+
+
+
+a:visited {
+  color: white;
+  text-decoration: none; 
+}
+a:link {
+  color: white;
+  text-decoration: none; 
+}
+a:hover {
+  color: #33ffff;
+  text-decoration: none; 
+}
+a{font-weight:bolder;}
+
+
+
+  .header_image{width:auto; height:50px; padding-left:150px;
+   padding-right:150px;}
+  #header_logo{padding:0; margin-left:100px;}
+
+  .Company_name{padding-top:15px;}
+
+  .nav_menu{padding-top:5px;}
+/****NAV MENU*****/
+
+
+  .content_container{
+    padding:0;}
+  .content_area{
+    text-align: center;
+   background:linear-gradient(1turn, rgb(255, 255, 255), rgb(255, 255, 255), 
+    rgba(255, 255, 255, 0.8), transparent);
+     width:auto;
+     position:relative;
+     bottom:-440px;}
+
+  h1{color:#00b3b3; padding-top:200px;}
+
+  .text_desc_one{
+    font-weight:bold;
+   font-size:20px;
+   width:auto;
+   padding:0;
+   margin:0;
+   margin-bottom: 1%}
+  .text_desc_two{
+    margin-bottom:5%;}
+
+  .read_more{margin-top:3%; font-size:20px; margin-bottom:20px; background:none; border:none;}
+  #icon_one{background-color:#00cccc; height:25px; width:25px; color:white; border-radius:25px;}
+
+  .extra_content_button{margin-top:3%; background-color:transparent; border:none;}
+ #icon_two{background-color:transparent; border:none; color:#004d4d;}
+/****FIRST SECTION CONTENT*****/
+
+
+
+/****SECOND SECTION CONTENT*****/
+/****SECOND SECTION CONTENT*****/
+  .trio_headers{margin-bottom:25%;}
+
+  ul{padding-left:0;}
+  li{list-style-type:none;}
+  li:before{
+    content:"\f069";
+    color:#00b386;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    padding-right: 0.5em;
+
+  }
+.backing_image_two{ 
+
+  background:url("section_two_back.jpg") no-repeat center;
+    background-size: contain;
+    background-attachment:fixed;
+    overflow-x:none; overflow-y:none; 
+    background-size:cover;
+    width:100%; height:900px;}
+.section_two_page_one{padding-top:150px; position:relative; }
+  .page_one{
+    position:absolute;}
+  .page_two{
+    position: absolute;
+   visibility:hidden;}
+  .page_three{
+    position: absolute;
+   visibility:hidden;}
+  .page_four{
+    position: absolute;
+   visibility:hidden;}
+
+  .section_two_page_one{
+    color:white; }
+  .section_two_columns{
+    background:linear-gradient(rgba(51, 51, 51, 0.7), 
+    rgba(26, 26, 26, 0.7)); 
+    height:500px;
+     width:90%; 
+     padding:15%; 
+     outline:lightgrey 1px solid; 
+     outline-offset:-25px;}
+
+
+    .progress_bar{text-align:center; margin-top:60%; width:100%; height:5px; 
+      color:white; background-color:white;}
+
+      .progress_bar_two{text-align:center; width:96.8%; height:5px; 
+      color:white; background-color:white; position: absolute; z-index:10; bottom:0.5px;}
+
+    .page_button_control{position:relative; left:50px; top:550px;}
+  
+    .page_changer_one{position: relative;}
+    .page_changer_two{position: relative; visibility:hidden;}
+    .page_changer_three{position: relative; visibility:hidden;}
+    .page_changer_four{position: relative; visibility:hidden;}
+
+    #allpage_buttons{width:100px; height:100px; background-color:#00b386; 
+      color:white; border:none; position:absolute;}
+/****SECOND SECTION CONTENT*****/
+/****SECOND SECTION CONTENT*****/
+
+
+
+
+
+
+/****THIRD SECTION CONTENT*****/
+/****THIRD SECTION CONTENT*****/
+/****THIRD SECTION CONTENT*****/
+    .whole_section_three{
+    background:url("section_three_back.jpg") no-repeat center;
+    background-size: contain;
+    background-attachment:fixed;
+    overflow-x:none; overflow-y:none; 
+    background-size:cover;
+    width:100%; height:900px; margin:0; padding:0;}
+  .third_content{margin-left:0;}
+  .section_three_contentboxes{position:relative; margin-right:0; margin-left:0;}
+  #section_three_container_one{padding-left:0px; margin-top:5%; margin-bottom:5%; position: absolute;}
+  #section_three_container_two{padding-left:0px; margin-top:5%; margin-bottom:5%; position: absolute; display:none;} 
+  #section_three_container_three{padding-left:0px; margin-top:5%; margin-bottom:5%; position: absolute; display: none;}
+
+.section_three_content{background:linear-gradient(360turn, rgba(255, 255, 255,0.6), rgba(255, 255, 255, 0.6));
+ width:650px; position: relative; margin-top:40px;}
+.section_three_text{padding:70px;}
+
+.section_three_titles_one{ font-weight:bolder; font-size:35px;}
+.section_three_titles_two{ font-weight:bolder; font-size:35px;}
+.section_three_titles_three{padding-bottom:5%; font-weight:bolder; font-size:35px;}
+
+.section_three_desc_one{}
+.section_three_desc_two{}
+
+.section_three_line{font-weight:bolder; width:60%; margin-left:0; height:5px; 
+  border:none; color:#333; background-color:#333;}
+
+
+.button_group{margin-left:160px;}
+#sectionthree_change{padding:0;}
+.section_three_buttons{color:white; background-color:#00cccc; width:70px; height:70px; border:none;}
+
+
+
+
+  footer{background-color:white; height:50%; width:100%; position:relative; top:800px;}
+
+  .footer_leftlogo{height:100px; width:100px; margin-top:12%;}
+
+  .footer_left_logo{text-align: right;}
+  .footer_left_copyright{text-align: left; margin-top:80px;}
+
+
+.footer_rightlogo{height:250px; width:350px; margin-left:40%;}
+.footer_rightbutton{background-color:#00cccc; color:white; border:none; height:35px; width:35px;}
+
+.footer_rightcontent{padding-top:50px; padding-left:310px; width:100%;}
+/****THIRD SECTION CONTENT*****/
+/****THIRD SECTION CONTENT*****/
+/****THIRD SECTION CONTENT*****/
+
